@@ -1,0 +1,9 @@
+subject,status,selected_activities,missing_test_activities,train_windows,test_windows,output_dir
+S1,prepared,"Bending,Bring,CleanFloor,CleanSurface",,38,37,D:\7th sem\ML\DATASETS\Annonmazed_CogActivity\DATA_PREP\processed_datasets_from_activity_config\selection_14b5013a3e02\S1
+S2,prepared,"CloseBigBox,CloseDoor,CloseDrawer,CloseLidByRotate",,25,25,D:\7th sem\ML\DATASETS\Annonmazed_CogActivity\DATA_PREP\processed_datasets_from_activity_config\selection_14b5013a3e02\S2
+S3,prepared,"closeotherlid,closesmallbox,drink,dryoffhand",,28,29,D:\7th sem\ML\DATASETS\Annonmazed_CogActivity\DATA_PREP\processed_datasets_from_activity_config\selection_14b5013a3e02\S3
+S4,prepared_training_only_no_test_data,"DryOffHandByShake,eatsmallthing,Gargle,GetUp","DryOffHandByShake,Gargle,GetUp,eatsmallthing",36,0,D:\7th sem\ML\DATASETS\Annonmazed_CogActivity\DATA_PREP\processed_datasets_from_activity_config\selection_14b5013a3e02\S4
+S5,prepared,"Hang,LieDown,Lying,OpenBag",,37,40,D:\7th sem\ML\DATASETS\Annonmazed_CogActivity\DATA_PREP\processed_datasets_from_activity_config\selection_14b5013a3e02\S5
+S6,prepared,"OpenBigBox,OpenDoor,OpenDrawer,OpenLidByRotate",,31,31,D:\7th sem\ML\DATASETS\Annonmazed_CogActivity\DATA_PREP\processed_datasets_from_activity_config\selection_14b5013a3e02\S6
+S7,prepared,"Dryoffhands,Openotherlid,Opensmallbox,Plugin",,30,31,D:\7th sem\ML\DATASETS\Annonmazed_CogActivity\DATA_PREP\processed_datasets_from_activity_config\selection_14b5013a3e02\S7
+S8,prepared,"PressByGrasp,Pressfromtop,PressSwitch,PutFromBottle",,29,27,D:\7th sem\ML\DATASETS\Annonmazed_CogActivity\DATA_PREP\processed_datasets_from_activity_config\selection_14b5013a3e02\S8

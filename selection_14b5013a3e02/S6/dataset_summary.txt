@@ -1,0 +1,39 @@
+CogAge Atomic Behaviour dataset preparation: S6
+
+Subject: S6
+Selected activities: OpenBigBox, OpenDoor, OpenDrawer, OpenLidByRotate
+Activities without original test folders: none
+Subject-specific class mapping: {"OpenBigBox": 0, "OpenDoor": 1, "OpenDrawer": 2, "OpenLidByRotate": 3}
+Resample frequency: 20ms
+Window size: 128
+Feature count: 33
+X_train shape: (31, 128, 33)
+X_test shape: (31, 128, 33)
+Split policy: original _1_extracted folders feed train; original _2_extracted folders feed test when present.
+Scaler: fitted only on this subject's training windows; then applied to that subject's train and test windows.
+Raw sensor files audited: 744
+Malformed rows: 0
+Missing raw measurement values: 0
+Resampled NaN cells interpolated or dropped: 116751
+Rows removed after interpolation/synchronization: 195
+Incomplete train windows discarded: 31 (3706 tail rows)
+Incomplete test windows discarded: 31 (3723 tail rows)
+
+Window counts per subject-specific class ID:
+  Class 0 (OpenBigBox): train=10, test=10
+  Class 1 (OpenDoor): train=7, test=7
+  Class 2 (OpenDrawer): train=7, test=7
+  Class 3 (OpenLidByRotate): train=7, test=7
+
+Original folders used:
+  S6_OpenBigBox_1_extracted
+  S6_OpenBigBox_2_extracted
+  S6_OpenDoor_1_extracted
+  S6_OpenDoor_2_extracted
+  S6_OpenDrawer_1_extracted
+  S6_OpenDrawer_2_extracted
+  S6_OpenLidByRotate_1_extracted
+  S6_OpenLidByRotate_2_extracted
+
+Label IDs 0-3 are local to this subject and correspond to this subject-specific class mapping.
+No _1_extracted or _extracted_r training data is relabeled as test. Missing original test data remains unavailable.

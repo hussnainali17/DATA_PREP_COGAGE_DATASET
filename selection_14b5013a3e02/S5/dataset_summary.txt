@@ -1,0 +1,39 @@
+CogAge Atomic Behaviour dataset preparation: S5
+
+Subject: S5
+Selected activities: Hang, LieDown, Lying, OpenBag
+Activities without original test folders: none
+Subject-specific class mapping: {"Hang": 0, "LieDown": 1, "Lying": 2, "OpenBag": 3}
+Resample frequency: 20ms
+Window size: 128
+Feature count: 33
+X_train shape: (37, 128, 33)
+X_test shape: (40, 128, 33)
+Split policy: original _1_extracted folders feed train; original _2_extracted folders feed test when present.
+Scaler: fitted only on this subject's training windows; then applied to that subject's train and test windows.
+Raw sensor files audited: 924
+Malformed rows: 0
+Missing raw measurement values: 0
+Resampled NaN cells interpolated or dropped: 146601
+Rows removed after interpolation/synchronization: 241
+Incomplete train windows discarded: 37 (4420 tail rows)
+Incomplete test windows discarded: 40 (4800 tail rows)
+
+Window counts per subject-specific class ID:
+  Class 0 (Hang): train=10, test=10
+  Class 1 (LieDown): train=10, test=10
+  Class 2 (Lying): train=7, test=10
+  Class 3 (OpenBag): train=10, test=10
+
+Original folders used:
+  S5_Hang_1_extracted
+  S5_Hang_2_extracted
+  S5_LieDown_1_extracted
+  S5_LieDown_2_extracted
+  S5_Lying_1_extracted
+  S5_Lying_2_extracted
+  S5_OpenBag_1_extracted
+  S5_OpenBag_2_extracted
+
+Label IDs 0-3 are local to this subject and correspond to this subject-specific class mapping.
+No _1_extracted or _extracted_r training data is relabeled as test. Missing original test data remains unavailable.

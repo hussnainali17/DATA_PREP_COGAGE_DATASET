@@ -1,0 +1,6 @@
+{
+  "CloseBigBox": 0,
+  "CloseDoor": 1,
+  "CloseDrawer": 2,
+  "CloseLidByRotate": 3
+}

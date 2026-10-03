@@ -1,0 +1,6 @@
+{
+  "OpenBigBox": 0,
+  "OpenDoor": 1,
+  "OpenDrawer": 2,
+  "OpenLidByRotate": 3
+}

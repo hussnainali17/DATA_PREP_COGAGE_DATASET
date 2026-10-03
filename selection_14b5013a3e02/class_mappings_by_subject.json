@@ -1,0 +1,50 @@
+{
+  "S1": {
+    "Bending": 0,
+    "Bring": 1,
+    "CleanFloor": 2,
+    "CleanSurface": 3
+  },
+  "S2": {
+    "CloseBigBox": 0,
+    "CloseDoor": 1,
+    "CloseDrawer": 2,
+    "CloseLidByRotate": 3
+  },
+  "S3": {
+    "closeotherlid": 0,
+    "closesmallbox": 1,
+    "drink": 2,
+    "dryoffhand": 3
+  },
+  "S4": {
+    "DryOffHandByShake": 0,
+    "eatsmallthing": 1,
+    "Gargle": 2,
+    "GetUp": 3
+  },
+  "S5": {
+    "Hang": 0,
+    "LieDown": 1,
+    "Lying": 2,
+    "OpenBag": 3
+  },
+  "S6": {
+    "OpenBigBox": 0,
+    "OpenDoor": 1,
+    "OpenDrawer": 2,
+    "OpenLidByRotate": 3
+  },
+  "S7": {
+    "Dryoffhands": 0,
+    "Openotherlid": 1,
+    "Opensmallbox": 2,
+    "Plugin": 3
+  },
+  "S8": {
+    "PressByGrasp": 0,
+    "Pressfromtop": 1,
+    "PressSwitch": 2,
+    "PutFromBottle": 3
+  }
+}

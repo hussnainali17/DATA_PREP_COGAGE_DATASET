@@ -1,0 +1,13 @@
+{
+  "activities_per_subject": 4,
+  "activities_by_subject": {
+    "S1": ["Bending", "Bring", "CleanFloor", "CleanSurface"],
+    "S2": ["CloseBigBox", "CloseDoor", "CloseDrawer", "CloseLidByRotate"],
+    "S3": ["closeotherlid", "closesmallbox", "drink", "dryoffhand"],
+    "S4": ["DryOffHandByShake", "eatsmallthing", "Gargle", "GetUp"],
+    "S5": ["Hang", "LieDown", "Lying", "OpenBag"],
+    "S6": ["OpenBigBox", "OpenDoor", "OpenDrawer", "OpenLidByRotate"],
+    "S7": ["Dryoffhands", "Openotherlid", "Opensmallbox", "Plugin"],
+    "S8": ["PressByGrasp", "Pressfromtop", "PressSwitch", "PutFromBottle"]
+  }
+}

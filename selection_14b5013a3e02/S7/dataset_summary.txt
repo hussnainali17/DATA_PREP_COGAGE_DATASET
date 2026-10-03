@@ -1,0 +1,39 @@
+CogAge Atomic Behaviour dataset preparation: S7
+
+Subject: S7
+Selected activities: Dryoffhands, Openotherlid, Opensmallbox, Plugin
+Activities without original test folders: none
+Subject-specific class mapping: {"Dryoffhands": 0, "Openotherlid": 1, "Opensmallbox": 2, "Plugin": 3}
+Resample frequency: 20ms
+Window size: 128
+Feature count: 33
+X_train shape: (30, 128, 33)
+X_test shape: (31, 128, 33)
+Split policy: original _1_extracted folders feed train; original _2_extracted folders feed test when present.
+Scaler: fitted only on this subject's training windows; then applied to that subject's train and test windows.
+Raw sensor files audited: 732
+Malformed rows: 0
+Missing raw measurement values: 0
+Resampled NaN cells interpolated or dropped: 120075
+Rows removed after interpolation/synchronization: 212
+Incomplete train windows discarded: 30 (3587 tail rows)
+Incomplete test windows discarded: 31 (3694 tail rows)
+
+Window counts per subject-specific class ID:
+  Class 0 (Dryoffhands): train=10, test=10
+  Class 1 (Openotherlid): train=7, test=7
+  Class 2 (Opensmallbox): train=7, test=7
+  Class 3 (Plugin): train=6, test=7
+
+Original folders used:
+  S7_Dryoffhands_1_extracted
+  S7_Dryoffhands_2_extracted
+  S7_Openotherlid_1_extracted
+  S7_Openotherlid_2_extracted
+  S7_Opensmallbox_1_extracted
+  S7_Opensmallbox_2_extracted
+  S7_Plugin_1_extracted
+  S7_Plugin_2_extracted
+
+Label IDs 0-3 are local to this subject and correspond to this subject-specific class mapping.
+No _1_extracted or _extracted_r training data is relabeled as test. Missing original test data remains unavailable.

@@ -1,0 +1,106 @@
+{
+  "activities_per_subject": 4,
+  "activity_config_file": "D:\\7th sem\\ML\\DATASETS\\Annonmazed_CogActivity\\DATA_PREP\\subject_activity_selection.json",
+  "selection_hash": "14b5013a3e02",
+  "selection_policy": "four configured activity names per subject; activity names cannot be reused across subjects ignoring case",
+  "activities_by_subject": {
+    "S1": [
+      "Bending",
+      "Bring",
+      "CleanFloor",
+      "CleanSurface"
+    ],
+    "S2": [
+      "CloseBigBox",
+      "CloseDoor",
+      "CloseDrawer",
+      "CloseLidByRotate"
+    ],
+    "S3": [
+      "closeotherlid",
+      "closesmallbox",
+      "drink",
+      "dryoffhand"
+    ],
+    "S4": [
+      "DryOffHandByShake",
+      "eatsmallthing",
+      "Gargle",
+      "GetUp"
+    ],
+    "S5": [
+      "Hang",
+      "LieDown",
+      "Lying",
+      "OpenBag"
+    ],
+    "S6": [
+      "OpenBigBox",
+      "OpenDoor",
+      "OpenDrawer",
+      "OpenLidByRotate"
+    ],
+    "S7": [
+      "Dryoffhands",
+      "Openotherlid",
+      "Opensmallbox",
+      "Plugin"
+    ],
+    "S8": [
+      "PressByGrasp",
+      "Pressfromtop",
+      "PressSwitch",
+      "PutFromBottle"
+    ]
+  },
+  "class_mapping_by_subject": {
+    "S1": {
+      "Bending": 0,
+      "Bring": 1,
+      "CleanFloor": 2,
+      "CleanSurface": 3
+    },
+    "S2": {
+      "CloseBigBox": 0,
+      "CloseDoor": 1,
+      "CloseDrawer": 2,
+      "CloseLidByRotate": 3
+    },
+    "S3": {
+      "closeotherlid": 0,
+      "closesmallbox": 1,
+      "drink": 2,
+      "dryoffhand": 3
+    },
+    "S4": {
+      "DryOffHandByShake": 0,
+      "eatsmallthing": 1,
+      "Gargle": 2,
+      "GetUp": 3
+    },
+    "S5": {
+      "Hang": 0,
+      "LieDown": 1,
+      "Lying": 2,
+      "OpenBag": 3
+    },
+    "S6": {
+      "OpenBigBox": 0,
+      "OpenDoor": 1,
+      "OpenDrawer": 2,
+      "OpenLidByRotate": 3
+    },
+    "S7": {
+      "Dryoffhands": 0,
+      "Openotherlid": 1,
+      "Opensmallbox": 2,
+      "Plugin": 3
+    },
+    "S8": {
+      "PressByGrasp": 0,
+      "Pressfromtop": 1,
+      "PressSwitch": 2,
+      "PutFromBottle": 3
+    }
+  }
+}

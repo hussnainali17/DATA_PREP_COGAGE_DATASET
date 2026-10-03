@@ -1,0 +1,39 @@
+CogAge Atomic Behaviour dataset preparation: S1
+
+Subject: S1
+Selected activities: Bending, Bring, CleanFloor, CleanSurface
+Activities without original test folders: none
+Subject-specific class mapping: {"Bending": 0, "Bring": 1, "CleanFloor": 2, "CleanSurface": 3}
+Resample frequency: 20ms
+Window size: 128
+Feature count: 33
+X_train shape: (38, 128, 33)
+X_test shape: (37, 128, 33)
+Split policy: original _1_extracted folders feed train; original _2_extracted folders feed test when present.
+Scaler: fitted only on this subject's training windows; then applied to that subject's train and test windows.
+Raw sensor files audited: 900
+Malformed rows: 0
+Missing raw measurement values: 0
+Resampled NaN cells interpolated or dropped: 140988
+Rows removed after interpolation/synchronization: 216
+Incomplete train windows discarded: 38 (4557 tail rows)
+Incomplete test windows discarded: 37 (4439 tail rows)
+
+Window counts per subject-specific class ID:
+  Class 0 (Bending): train=10, test=10
+  Class 1 (Bring): train=10, test=10
+  Class 2 (CleanFloor): train=11, test=10
+  Class 3 (CleanSurface): train=7, test=7
+
+Original folders used:
+  S1_Bending_1_extracted
+  S1_Bending_2_extracted
+  S1_Bring_1_extracted
+  S1_Bring_2_extracted
+  S1_CleanFloor_1_extracted
+  S1_CleanFloor_2_extracted
+  S1_CleanSurface_1_extracted
+  S1_CleanSurface_2_extracted
+
+Label IDs 0-3 are local to this subject and correspond to this subject-specific class mapping.
+No _1_extracted or _extracted_r training data is relabeled as test. Missing original test data remains unavailable.
